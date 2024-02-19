@@ -1,12 +1,18 @@
 
 body{
     background-color: #e1f5f8;
-    margin: auto; 
+    margin-left:-40px;
 }
 header{
     background-color: white;
+    border: #e1f5f8;
     padding: 20px;
-    margin:0; 
+    margin:2px; 
+    margin-left: 40px;
+    padding-bottom: 50px;
+    box-shadow:6px 6px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: -20px;
+    border-bottom: blue;
 }
 a{
     text-align: center;
@@ -32,7 +38,9 @@ nav ul {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: -30px;
-    margin-bottom: 0px;    
+    margin-bottom: 0px; 
+    font-size: 17px;   
+    font-family: Arial, Helvetica, sans-serif;
 }
 nav a {
     text-decoration: none;
@@ -48,6 +56,33 @@ nav ul li :hover{
     opacity: 1;
     filter: blur(0px); 
     text-align: center;
+}
+.lien{
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.lien1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70%;
+    margin-top: -30px;
+
+}
+.lien2{
+    margin-top: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-right: 200px;
+}
+.href{
+    margin-left: 300px;
+}
+.parba{
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: -30px;
 }
 
 footer{
@@ -129,7 +164,8 @@ p1 h3{
     display: flex;
     flex-direction: row;
     width: 90%;
-    margin: 2%;
+    margin-left: auto;
+    margin-right: 60px;
       
 }
 h4{
@@ -195,7 +231,8 @@ margin: auto;
 .tableau{
     display: flex;
     flex-direction: row; 
-    
+    margin-left: auto;
+    margin-right: 60px;
 }
 .tableauA{
     color: white;
@@ -205,6 +242,9 @@ margin: auto;
     padding-bottom: 10%;
     padding-left: 3%;
     text-align: justify;
+    margin: 0px;
+    margin-bottom: 5%;
+    
    
 }
 p4, h2{
@@ -258,12 +298,13 @@ h2{
 .conteneur{
     padding-bottom: 15%;
     margin-left: 3%;
-    margin: 0%;
+    margin: 4%;
     padding: 0%;
+    margin-top: 2%;
     
 }
 h3{
-    font-size: 2em;
+    font-size: 80px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding-top: 5%;
@@ -271,10 +312,14 @@ h3{
 p1{
     font-size: 130%;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    
 }
 .image{
     display: flex;
     flex-direction: row;
+    margin-left:30px;
+    padding: auto;
 }
 .image1, .image2{
     padding-right: 20%;
@@ -296,8 +341,15 @@ p9{
     margin: 80%;
 }
 p4, p5{
+    
+    
+    
+    margin: 10%;
+    border-radius: 3%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;  
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;  
 }
 p4{
    margin-left: 8%;
