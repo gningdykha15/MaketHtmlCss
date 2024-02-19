@@ -320,6 +320,7 @@ p1{
     flex-direction: row;
     margin-left:30px;
     padding: auto;
+    background-color: #03077d;
 }
 .image1, .image2{
     padding-right: 20%;
